@@ -1,0 +1,25 @@
+@import './vars';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+Svg {
+    cursor: pointer;
+    margin-right: 9px;
+}
+
+@import './sidebar';
+@import './message';
+@import './main';

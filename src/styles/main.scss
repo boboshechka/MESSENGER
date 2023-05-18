@@ -1,0 +1,107 @@
+.main {
+    padding: 0 0 0 $sidebar-width;
+    width: 100%;
+}
+
+.main__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    margin-left: 9px;
+    height: 55px;
+    background-color: #e0e0e0;
+}
+
+.main-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-profile__info {
+    text-align: left;
+    margin-left: 1.2rem;
+
+    p {
+        margin-top: 4px;
+    }
+}
+
+.main__bottom {
+    display: flex;
+    align-items: center;
+
+    padding: 10px 15px;
+    height: 65px;
+    background-color: $primary;
+
+    form {
+        display: flex;
+        width: 80%;
+
+        input {
+            margin-right: 10px;
+            all: unset;
+            background-color: white;
+            height: 2rem;
+            padding-left: 20px;
+            width: 100%;
+            border: 1px solid rgb(159, 185, 185);
+        }
+
+    }
+
+    button {
+        cursor: pointer;
+        margin-left: 5px;
+        width: 18%;
+        padding: 5px;
+        border: 1px solid $border-color;
+
+        &:hover {
+            background-color: $message-info;
+        }
+    }
+
+}
+
+
+.main__center {
+    max-width: 60rem;
+    width: 100%;
+
+    margin: 30px auto;
+    min-width: 20rem;
+    min-height: calc(78.5vh);
+}
+
+
+.main__center-interviewer {
+    border: 1px solid $border-color;
+    padding: 5px;
+    background: $primary;
+
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.main__center-our {
+    text-align: right;
+    float: right;
+    width: 50%;
+    white-space: wrap;
+
+    margin-top: 5px;
+    margin-left: 5px;
+
+    border: 1px solid $border-color;
+    padding: 5px;
+    background: $primary;
+}
